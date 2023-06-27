@@ -4,7 +4,9 @@
   "description": "Repo para projeto e apontamentos de mais uma reciclagem de conhecimento na área de desenvolvimento.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prittier --check .",
+    "lint:fix": "prittier --write ."
   },
   "author": "",
   "license": "MIT",
